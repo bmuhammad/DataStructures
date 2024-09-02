@@ -25,13 +25,13 @@
 
 
 //find all sub arrays thta total the max
-const nums = [0, 1, 2, 3, 4]
+//const nums = [0, 1, 2, 3, 4]
 
-for (let i = 0; i < nums.length; ++i){
-  console.log(`iteration ${i}`)
-  for(let j = i + 1; j<= nums.length; ++j) {
+//for (let i = 0; i < nums.length; ++i){
+ // console.log(`iteration ${i}`)
+  //for(let j = i + 1; j<= nums.length; ++j) {
 
- const subarray = (nums.slice(i,j))
+ //const subarray = (nums.slice(i,j))
  
  //calculates the sum of every subarray but there is a better way
  //let sum = 0;
@@ -40,11 +40,13 @@ for (let i = 0; i < nums.length; ++i){
  //}
 
  //use reduce method for best but still very slow
- const sum = subarray.reduce((acc, curr) => acc + curr);
- console.log(subarray, sum)
+ //const sum = subarray.reduce((acc, curr) => acc + curr);
+ //console.log(subarray, sum)
 
 
- 
 
-  }
-}
+
+  //}
+//}
+
+
