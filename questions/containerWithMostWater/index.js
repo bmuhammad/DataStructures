@@ -24,7 +24,7 @@
       if (heights[l] < heights[r]){
          l += 1
       }
-      else{
+      else{ 
          r -= 1
       }
 
