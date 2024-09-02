@@ -10,7 +10,7 @@
  * sumOfTwo([4, 5, 8], [3, 1, 4], 9) -> true
  * 
  */
-
+//use set when do need to use a key and dont need time complexity higher than O(n)
  const sumOfTwo = (nums1, nums2, target) => {
    const set = new Set();
 
