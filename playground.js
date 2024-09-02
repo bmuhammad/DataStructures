@@ -51,23 +51,24 @@
 
 ///productExceptSelf
 
-const nums = [1, 2, 3, 4]
-const leftProducts = [];
-leftProducts[0] = 1
+//const nums = [1, 2, 3, 4]
+//const leftProducts = [];
+//leftProducts[0] = 1
 
-for (let i = 1; i < nums.length; ++i){
-  leftProducts[i] = nums[i - 1] * leftProducts[i -1]
-}
+//for (let i = 1; i < nums.length; ++i){
+ // leftProducts[i] = nums[i - 1] * leftProducts[i -1]
+//}
 
-console.log(leftProducts)
+//console.log(leftProducts)
 
 
 
-const rightProducts = []
-rightProducts[nums.length - 1] = 1;
+//const rightProducts = []
+//rightProducts[nums.length - 1] = 1;
 
-for (let i = nums.length - 2; i >= 0; --i) {
-  rightProducts[i] = nums[i + 1] * rightProducts[i + 1]
-}
+//for (let i = nums.length - 2; i >= 0; --i) {
+ // rightProducts[i] = nums[i + 1] * rightProducts[i + 1]
+//}
 
-console.log(rightProducts)
+//console.log(rightProducts)
+
