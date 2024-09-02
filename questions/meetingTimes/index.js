@@ -12,6 +12,22 @@
 
  const meetingTimes = (times) => {
 
+    //Sort array
+    times.sort((a, b) => a[0] - b[0])
+
+
+    //compare start time of current meeting with end time of previous meeting
+    for (let i = 1; i < times.length; i++){
+        const currentStart = times[i][0]
+        const prevEnd = times[i - 1][1]
+
+        if ( currentStart < prevEnd){
+            return false
+        }
+    }
+
+    return true;
+
  };
 
 module.exports = meetingTimes;
